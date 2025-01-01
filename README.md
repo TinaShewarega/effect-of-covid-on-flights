@@ -19,9 +19,11 @@ Provide a breakdown of flight volume trends and variations for each carrier.
 **Data Preprocessing**
   - The make_datetime_100 function was used to convert year, month, day, and time fields into datetime objects.
   - Data was filtered for valid departure and arrival times to ensure accuracy.
+    
 **Time Series Visualization**:
   - Examined monthly and holiday-specific flight volumes.
   - Compared trends across years and carriers.
+    
 **Holiday Analysis**:
 - Focused on travel weeks (Thanksgiving: weeks 47-48; Christmas: weeks 49-52).
 - Analyzed carrier-specific flight patterns during holiday periods.
